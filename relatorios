@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios - Garra de Águia Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body contenteditable="true">
+    <header>
+        <div class="logo-container">
+            <div class="logo">📊</div>
+            <div>
+                <h1>Garra de Águia Lily Lau do Brasil</h1>
+                <h2>Relatórios e Análise de Dados</h2>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="mensagens.html">Mensagens</a></li>
+            <li><a href="alunos.html">Alunos</a></li>
+            <li><a href="professores.html">Professores</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="ead.html">EAD</a></li>
+        </ul>
+    </nav>
+    
+    <div style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+        <h3 style="color: #1a365d; text-align: center; font-size: 28px; margin-bottom: 20px;">Relatórios e Análises do Sistema</h3>
+        
+        <div class="dashboard-grid" style="margin-bottom: 30px;">
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <div class="card-title">Desempenho Geral</div>
+                <div class="card-badge">89% Aprovação</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">👥</div>
+                <div class="card-title">Retenção</div>
+                <div class="card-badge">94% Ativos</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <div class="card-title">Meta Mensal</div>
+                <div class="card-badge">78% Concluído</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <div class="card-title">EAD</div>
+                <div class="card-badge">72% Progresso</div>
+            </div>
+        </div>
+        
+        <div style="background: #f7fafc; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #1a365d; margin-bottom: 25px; font-size: 22px;">📋 Selecione o Tipo de Relatório</h4>
+            
+            <div class="report-option">
+                <h4>📊 Relatório de Retenção de Alunos por Período</h4>
+                <p>Gera um gráfico comparando o número de alunos em cada período de graduação e taxa de evasão.</p>
+                <p><strong>Período:</strong> Últimos 12 meses | <strong>Segmentação:</strong> Por faixa e período</p>
+                <div style="margin-top: 15px;">
+                    <button class="action-btn" style="margin-right: 10px;">📈 Gerar Gráfico</button>
+                    <button class="action-btn" style="margin-right: 10px;">📄 Exportar PDF</button>
+                    <button class="action-btn">📊 Exportar CSV</button>
+                </div>
+            </div>
+            
+            <div class="report-option">
+                <h4>🎯 Performance de Avaliação por Faixa</h4>
+                <p>Detalha as notas médias e taxas de reprovação nos últimos 12 meses, segmentado por cor de faixa.</p>
+                <p><strong>Métricas:</strong> Notas médias, taxa de aprovação, desempenho comparativo</p>
+                <div style="margin-top: 15px;">
+                    <button class="action-btn" style="margin-right: 10px;">📊 Ver Dados Brutos</button>
+                    <button class="action-btn" style="margin-right: 10px;">📈 Gráfico Comparativo</button>
+                    <button class="action-btn">📋 Relatório Detalhado</button>
+                </div>
+            </div>
+            
+            <div class="report-option">
+                <h4>👥 Cadastro Completo de Docentes/Discentes</h4>
+                <p>Exporta uma planilha com todos os dados de registro, incluindo grau marcial e data de matrícula.</p>
+                <p><strong>Inclui:</strong> Dados pessoais, histórico acadêmico, contatos, observações</p>
+                <div style="margin-top: 15px;">
+                    <button class="action-btn" style="margin-right: 10px;">📁 Exportar Tabela Mestra</button>
+                    <button class="action-btn" style="margin-right: 10px;">📧 Lista de Contatos</button>
+                    <button class="action-btn">👨‍🎓 Relatório por Professor</button>
+                </div>
+            </div>
+
+
+            <div class="report-option">
+                <h4>💻 Progresso dos Módulos EAD</h4>
+                <p>Relatório detalhado do progresso dos alunos nos módulos de ensino à distância.</p>
+                <p><strong>Dados:</strong> Conclusão por módulo, tempo médio, taxa de aproveitamento</p>
+                <div style="margin-top: 15px;">
+                    <button class="action-btn" style="margin-right: 10px;">📊 Progresso Geral</button>
+                    <button class="action-btn" style="margin-right: 10px;">🎯 Por Módulo</button>
+                    <button class="action-btn">⏰ Análise de Tempo</button>
+                </div>
+            </div>
+
+
+            <div class="report-option">
+                <h4>💰 Financeiro e Mensalidades</h4>
+                <p>Relatórios de situação financeira, inadimplência e projeções de receita.</p>
+                <p><strong>Informações:</strong> Pagamentos, pendências, histórico, previsões</p>
+                <div style="margin-top: 15px;">
+                    <button class="action-btn" style="margin-right: 10px;">💳 Situação Atual</button>
+                    <button class="action-btn" style="margin-right: 10px;">📅 Previsão Mensal</button>
+                    <button class="action-btn">📋 Relatório Completo</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-section" style="margin-top: 40px;">
+            <h3>🔧 Relatório Personalizado</h3>
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="tipo_relatorio">Tipo de Relatório</label>
+                        <select id="tipo_relatorio" name="tipo_relatorio" required>
+                            <option value="">Selecione...</option>
+                            <option value="academico">Acadêmico</option>
+                            <option value="financeiro">Financeiro</option>
+                            <option value="desempenho">Desempenho</option>
+                            <option value="frequencia">Frequência</option>
+                            <option value="ead">EAD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="periodo">Período</label>
+                        <select id="periodo" name="periodo" required>
+                            <option value="">Selecione...</option>
+                            <option value="ultimo_mes">Último Mês</option>
+                            <option value="ultimos_3_meses">Últimos 3 Meses</option>
+                            <option value="ultimos_6_meses">Últimos 6 Meses</option>
+                            <option value="ultimo_ano">Último Ano</option>
+                            <option value="personalizado">Personalizado</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="data_inicio">Data Início (se personalizado)</label>
+                        <input type="date" id="data_inicio" name="data_inicio">
+                    </div>
+                    <div class="form-group">
+                        <label for="data_fim">Data Fim (se personalizado)</label>
+                        <input type="date" id="data_fim" name="data_fim">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="segmentacao">Segmentação</label>
+                    <select id="segmentacao" name="segmentacao" multiple style="height: 100px;">
+                        <option value="faixa">Por Faixa</option>
+                        <option value="periodo">Por Período</option>
+                        <option value="professor">Por Professor</option>
+                        <option value="turma">Por Turma</option>
+                        <option value="idade">Por Faixa Etária</option>
+                        <option value="genero">Por Gênero</option>
+                    </select>
+                    <small>Segure Ctrl para selecionar múltiplas opções</small>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="formato_saida">Formato de Saída</label>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                        <label style="display: flex; align-items: center; gap: 5px;">
+                            <input type="checkbox" name="formato" value="pdf"> PDF
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px;">
+                            <input type="checkbox" name="formato" value="excel"> Excel
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px;">
+                            <input type="checkbox" name="formato" value="csv"> CSV
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px;">
+                            <input type="checkbox" name="formato" value="grafico"> Gráfico
+                        </label>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="action-btn" style="width: 100%;">🔄 Gerar Relatório Personalizado</button>
+            </form>
+        </div>
+
+
+        <div style="background: #e6fffa; padding: 20px; border-radius: 10px; margin-top: 30px; border-left: 5px solid #38b2ac;">
+            <h4 style="color: #2c5282; margin-bottom: 10px;">💡 Dica Rápida</h4>
+            <p style="color: #4a5568; margin: 0;">Use os relatórios para identificar tendências, melhorar o ensino e tomar decisões baseadas em dados. Exporte em diferentes formatos conforme sua necessidade.</p>
+        </div>
+    </div>
+    
+    <footer>
+        © Garra de Águia Lily Lau do Brasil — Sistema Acadêmico de Educação Marcial
+    </footer>
+</body>
+</html>
