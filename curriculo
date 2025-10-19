@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Marcial - Garra de Águia Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body contenteditable="true">
+    <header>
+        <div class="logo-container">
+            <div class="logo">📄</div>
+            <div>
+                <h1>Garra de Águia Lily Lau do Brasil</h1>
+                <h2>Matriz Curricular e Progressão de Grau</h2>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="mensagens.html">Mensagens</a></li>
+            <li><a href="alunos.html">Alunos</a></li>
+            <li><a href="professores.html">Professores</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="relatorios.html">Relatórios</a></li>
+            <li><a href="ead.html">EAD</a></li>
+        </ul>
+    </nav>
+    
+    <div style="max-width: 1000px; margin: 30px auto; padding: 0 20px;">
+        <h3 style="color: #1a365d; text-align: center; font-size: 28px; margin-bottom: 20px;">Estrutura Completa do Grau Acadêmico Marcial</h3>
+        
+        <div class="quick-actions">
+            <button class="action-btn">📥 Baixar Currículo (PDF)</button>
+            <button class="action-btn">🔄 Atualizar Grade</button>
+            <button class="action-btn">📚 Materiais Didáticos</button>
+        </div>
+
+
+        <div class="curriculo-container" style="margin-top: 30px;">
+            <div style="background: #f0f4f8; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #2c5282; margin: 0;">📋 Estrutura de Progressão</h4>
+                <p style="margin: 5px 0 0 0; color: #4a5568;">Cada nível possui requisitos específicos de técnica, teoria e tempo mínimo de prática</p>
+            </div>
+
+
+            <span class="degree-level">🎯 Grau Inicial (Base Fundamental)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>✅ <strong>Iniciante</strong> - Introdução aos fundamentos básicos</li>
+                <li>✅ <strong>Intermediário</strong> - Desenvolvimento técnico inicial</li>
+                <li>✅ <strong>Auxiliar Instrutor</strong> - Início da capacitação docente</li>
+            </ul>
+
+
+            <span class="degree-level">1. 🥋 Ensino Básico (1º - 2º Período)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>1.1. <strong>Faixa Branca</strong> (1º Período) - Fundamentos essenciais</li>
+                <li>1.2. <strong>Faixa Amarela</strong> (1º Período) - Técnicas básicas</li>
+                <li>1.3. <strong>Faixa Verde</strong> (2º Período) - Aperfeiçoamento inicial</li>
+            </ul>
+
+
+            <span class="degree-level">2. 🔥 Ensino Intermediário (3º - 4º Período)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>2.1. <strong>Faixa Vermelha</strong> (3º Período) - Técnicas intermediárias</li>
+                <li>2.2. <strong>Faixa Azul</strong> (4º Período) - Desenvolvimento avançado</li>
+            </ul>
+
+
+            <span class="degree-level">3. ⚡ Ensino Médio (5º - 6º Período)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>3.1. <strong>Faixa Roxa</strong> (5º Período) - Técnicas complexas</li>
+                <li>3.2. <strong>Faixa Marrom</strong> (6º Período) - Preparação para faixa preta</li>
+            </ul>
+
+
+            <span class="degree-level">4. 🖤 Ensino de Graduação - Faixa Preta (7º - 8º Período)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>4.1. <strong>Faixa Preta</strong> (7º Período) - Domínio técnico completo</li>
+                <li>4.2. <strong>Faixa Preta 1º Duen</strong> (8º Período) - Aperfeiçoamento docente</li>
+            </ul>
+
+
+            <span class="degree-level">5. 🎓 Pós Graduação (Dan)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>5.1. <strong>Faixa Preta 2º Duen</strong> - Especialização técnica</li>
+                <li>5.2. <strong>Faixa Preta 3º Duen</strong> - Desenvolvimento metodológico</li>
+                <li>5.3. <strong>Faixa Preta 4º Duen</strong> - Liderança e gestão</li>
+            </ul>
+
+
+            <span class="degree-level">6. 👑 Mestre (Excelência Marcial)</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>6.1. <strong>Faixa Preta 5º Duen</strong> - Mestrado inicial</li>
+                <li>6.2. <strong>Faixa Preta 6º Duen</strong> - Mestrado pleno</li>
+                <li>6.3. <strong>Faixa Preta 7º Duen</strong> - Grande Mestre</li>
+            </ul>
+
+
+            <span class="degree-level">7. 🌟 Graus Honorários / Máximos</span>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+                <li>✅ <strong>7. Doutor</strong> - Contribuição excepcional</li>
+                <li>✅ <strong>8. Pós Doutorado</strong> - Excelência máxima</li>
+            </ul>
+        </div>
+
+
+        <div class="form-section" style="margin-top: 40px;">
+            <h3>📊 Distribuição de Alunos por Grau</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                <div style="background: #f7fafc; padding: 15px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: bold; color: #2c5282;">42</div>
+                    <div style="color: #4a5568;">Ensino Básico</div>
+                </div>
+                <div style="background: #f7fafc; padding: 15px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: bold; color: #2c5282;">35</div>
+                    <div style="color: #4a5568;">Ensino Intermediário</div>
+                </div>
+                <div style="background: #f7fafc; padding: 15px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: bold; color: #2c5282;">28</div>
+                    <div style="color: #4a5568;">Ensino Médio</div>
+                </div>
+                <div style="background: #f7fafc; padding: 15px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: bold; color: #2c5282;">22</div>
+                    <div style="color: #4a5568;">Graduação/Pos</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="text-align: center; margin-top: 40px;">
+            <button class="action-btn" style="margin-right: 15px;">📥 Baixar Currículo Completo (PDF)</button>
+            <button class="action-btn">🖨️ Imprimir Grade Curricular</button>
+        </div>
+    </div>
+    
+    <footer>
+        © Garra de Águia Lily Lau do Brasil — Sistema Acadêmico de Educação Marcial
+    </footer>
+</body>
+</html>
