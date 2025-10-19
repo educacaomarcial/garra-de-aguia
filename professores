@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores - Garra de Águia Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body contenteditable="true">
+    <header>
+        <div class="logo-container">
+            <div class="logo">👨‍🏫</div>
+            <div>
+                <h1>Garra de Águia Lily Lau do Brasil</h1>
+                <h2>Gestão de Docentes e Instrutores</h2>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="mensagens.html">Mensagens</a></li>
+            <li><a href="alunos.html">Alunos</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="relatorios.html">Relatórios</a></li>
+            <li><a href="ead.html">EAD</a></li>
+        </ul>
+    </nav>
+    
+    <div style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+        <h3 style="color: #1a365d; text-align: center; font-size: 28px; margin-bottom: 20px;">Corpo Docente e Auxiliares (12 Certificados)</h3>
+        
+        <div class="quick-actions">
+            <button class="action-btn">➕ Novo Professor</button>
+            <button class="action-btn">📅 Calendário de Aulas</button>
+            <button class="action-btn">📊 Desempenho</button>
+        </div>
+
+
+        <div class="professor-card-grid">
+            <div class="professor-card">
+                <h4>Mestre João Silva</h4>
+                <p><strong>Grau:</strong> Faixa Preta 5º Duen (Mestre)</p>
+                <p><strong>Especialização:</strong> Formas Tradicionais e Defesa Pessoal</p>
+                <p><strong>Responsável:</strong> Turmas Avançadas e Formação de Instrutores</p>
+                <p><strong>Experiência:</strong> 25 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                    <span class="status-badge" style="background: #2c5282;">Coordenador</span>
+                </div>
+            </div>
+            
+            <div class="professor-card">
+                <h4>Professora Maria Lúcia Santos</h4>
+                <p><strong>Grau:</strong> Faixa Preta 3º Duen</p>
+                <p><strong>Especialização:</strong> Fundamentos e Técnicas Básicas</p>
+                <p><strong>Responsável:</strong> Ensino Básico (Faixas Branca, Amarela, Verde)</p>
+                <p><strong>Experiência:</strong> 15 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                    <span class="status-badge" style="background: #2c5282;">Supervisora</span>
+                </div>
+            </div>
+            
+            <div class="professor-card">
+                <h4>Instrutor Pedro Mendes</h4>
+                <p><strong>Grau:</strong> Faixa Preta 1º Duen</p>
+                <p><strong>Especialização:</strong> Combate e Aplicações Práticas</p>
+                <p><strong>Responsável:</strong> Ensino Intermediário (Faixas Vermelha, Azul)</p>
+                <p><strong>Experiência:</strong> 8 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                </div>
+            </div>
+            
+            <div class="professor-card">
+                <h4>Auxiliar Daniela Rocha</h4>
+                <p><strong>Grau:</strong> Auxiliar Instrutor</p>
+                <p><strong>Especialização:</strong> Apoio Técnico e Desenvolvimento Inicial</p>
+                <p><strong>Responsável:</strong> Apoio à Turma de Iniciantes</p>
+                <p><strong>Experiência:</strong> 3 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                    <span class="status-badge" style="background: #f59e0b;">Em Treinamento</span>
+                </div>
+            </div>
+
+
+            <div class="professor-card">
+                <h4>Professor Carlos Eduardo</h4>
+                <p><strong>Grau:</strong> Faixa Preta 2º Duen</p>
+                <p><strong>Especialização:</strong> Competições e Preparação Física</p>
+                <p><strong>Responsável:</strong> Equipe de Competição</p>
+                <p><strong>Experiência:</strong> 12 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                </div>
+            </div>
+
+
+            <div class="professor-card">
+                <h4>Instrutora Fernanda Lima</h4>
+                <p><strong>Grau:</strong> Faixa Preta</p>
+                <p><strong>Especialização:</strong> Defesa Pessoal Feminina</p>
+                <p><strong>Responsável:</strong> Turmas Femininas e Infantil</p>
+                <p><strong>Experiência:</strong> 6 anos</p>
+                <div style="margin-top: 10px;">
+                    <span class="status-badge status-ativo">Ativo</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-section" style="margin-top: 40px;">
+            <h3>Agenda Semanal de Aulas</h3>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Segunda</th>
+                            <th>Terça</th>
+                            <th>Quarta</th>
+                            <th>Quinta</th>
+                            <th>Sexta</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00 - 09:30</td>
+                            <td>Infantil (Maria)</td>
+                            <td>-</td>
+                            <td>Infantil (Maria)</td>
+                            <td>-</td>
+                            <td>Infantil (Maria)</td>
+                            <td>Competição (Carlos)</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 11:30</td>
+                            <td>Básico (Maria)</td>
+                            <td>Intermediário (Pedro)</td>
+                            <td>Básico (Maria)</td>
+                            <td>Intermediário (Pedro)</td>
+                            <td>Básico (Maria)</td>
+                            <td>Avançado (João)</td>
+                        </tr>
+                        <tr>
+                            <td>14:00 - 15:30</td>
+                            <td>Feminino (Fernanda)</td>
+                            <td>-</td>
+                            <td>Feminino (Fernanda)</td>
+                            <td>-</td>
+                            <td>Feminino (Fernanda)</td>
+                            <td>Instrutores (João)</td>
+                        </tr>
+                        <tr>
+                            <td>16:00 - 17:30</td>
+                            <td>Intermediário (Pedro)</td>
+                            <td>Básico (Daniela)</td>
+                            <td>Intermediário (Pedro)</td>
+                            <td>Básico (Daniela)</td>
+                            <td>Intermediário (Pedro)</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>19:00 - 20:30</td>
+                            <td>Avançado (João)</td>
+                            <td>Adultos Iniciantes</td>
+                            <td>Avançado (João)</td>
+                            <td>Adultos Iniciantes</td>
+                            <td>Avançado (João)</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        © Garra de Águia Lily Lau do Brasil — Sistema Acadêmico de Educação Marcial
+    </footer>
+</body>
+</html>
