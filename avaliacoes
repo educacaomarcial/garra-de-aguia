@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações - Garra de Águia Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body contenteditable="true">
+    <header>
+        <div class="logo-container">
+            <div class="logo">📝</div>
+            <div>
+                <h1>Garra de Águia Lily Lau do Brasil</h1>
+                <h2>Programação e Resultados de Avaliações</h2>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="mensagens.html">Mensagens</a></li>
+            <li><a href="alunos.html">Alunos</a></li>
+            <li><a href="professores.html">Professores</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="relatorios.html">Relatórios</a></li>
+            <li><a href="ead.html">EAD</a></li>
+        </ul>
+    </nav>
+    
+    <div style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+        <h3 style="color: #1a365d; text-align: center; font-size: 28px; margin-bottom: 20px;">Gestão de Avaliações e Exames</h3>
+        
+        <div class="quick-actions">
+            <button class="action-btn">➕ Nova Avaliação</button>
+            <button class="action-btn">📋 Modelos de Prova</button>
+            <button class="action-btn">📊 Estatísticas</button>
+        </div>
+
+
+        <div class="dashboard-grid" style="margin-top: 30px;">
+            <div class="card">
+                <div class="card-icon">📅</div>
+                <div class="card-title">Próximas Avaliações</div>
+                <div class="card-badge">3 agendadas</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">✅</div>
+                <div class="card-title">Avaliações Concluídas</div>
+                <div class="card-badge">12 este mês</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-title">Taxa de Aprovação</div>
+                <div style="font-size: 24px; font-weight: bold; color: #48bb78; margin-top: 10px;">89%</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">👥</div>
+                <div class="card-title">Alunos para Avaliar</div>
+                <div style="font-size: 24px; font-weight: bold; color: #f59e0b; margin-top: 10px;">24</div>
+            </div>
+        </div>
+        
+        <div style="background: #f7fafc; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-top: 30px;">
+            <h4 style="color: #1a365d; margin-bottom: 20px; font-size: 22px;">Próximos Exames Agendados</h4>
+            
+            <div class="avaliacao-item">
+                <h4>🟢 Exame de Faixas: Branca, Amarela e Verde (Ensino Básico)</h4>
+                <p><strong>Data:</strong> 20 de Outubro de 2024 | <strong>Horário:</strong> 14:00 - 17:00</p>
+                <p><strong>Local:</strong> Dojo Principal | <strong>Avaliadores:</strong> Mestre João Silva, Prof. Maria Lúcia</p>
+                <p><strong>Alunos Inscritos:</strong> 35 | <strong>Status:</strong> <span class="status-badge status-ativo">Inscrições Abertas</span></p>
+                <div style="margin-top: 10px;">
+                    <button class="action-btn" style="margin-right: 10px;">📋 Lista de Inscritos</button>
+                    <button class="action-btn">📝 Critérios de Avaliação</button>
+                </div>
+            </div>
+            
+            <div class="avaliacao-item">
+                <h4>🟡 Exame de Faixas: Vermelha e Azul (Ensino Intermediário)</h4>
+                <p><strong>Data:</strong> 10 de Novembro de 2024 | <strong>Horário:</strong> 09:00 - 12:00</p>
+                <p><strong>Local:</strong> Dojo Principal | <strong>Avaliadores:</strong> Instrutor Pedro Mendes</p>
+                <p><strong>Alunos Inscritos:</strong> 18 | <strong>Status:</strong> <span class="status-badge" style="background: #f59e0b;">Preparação</span></p>
+                <div style="margin-top: 10px;">
+                    <button class="action-btn" style="margin-right: 10px;">👀 Ver Pré-requisitos</button>
+                    <button class="action-btn">📧 Enviar Lembrete</button>
+                </div>
+            </div>
+            
+            <div class="avaliacao-item">
+                <h4>🔴 Exame de Faixas: Roxa e Marrom (Ensino Médio)</h4>
+                <p><strong>Data:</strong> 15 de Setembro de 2024 | <strong>Horário:</strong> 10:00 - 13:00</p>
+                <p><strong>Local:</strong> Dojo Principal | <strong>Avaliadores:</strong> Mestre João Silva</p>
+                <p><strong>Resultado:</strong> 92% de Aprovação | <strong>Status:</strong> <span class="status-badge" style="background: #48bb78;">Concluído</span></p>
+                <div style="margin-top: 10px;">
+                    <button class="action-btn" style="margin-right: 10px;">📊 Ver Resultados</button>
+                    <button class="action-btn">📄 Emitir Certificados</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-section" style="margin-top: 40px;">
+            <h3>Lançamento de Notas</h3>
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="tipo_avaliacao">Tipo de Avaliação</label>
+                        <select id="tipo_avaliacao" name="tipo_avaliacao" required>
+                            <option value="">Selecione...</option>
+                            <option value="exame_faixa">Exame de Faixa</option>
+                            <option value="avaliacao_periodica">Avaliação Periódica</option>
+                            <option value="teste_teorico">Teste Teórico</option>
+                            <option value="avaliacao_pratica">Avaliação Prática</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="data_avaliacao">Data da Avaliação</label>
+                        <input type="date" id="data_avaliacao" name="data_avaliacao" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="alunos_avaliados">Alunos Avaliados</label>
+                    <select id="alunos_avaliados" name="alunos_avaliados" multiple style="height: 120px;">
+                        <option value="101">Ana P. da Silva</option>
+                        <option value="102">Bruno R. de Souza</option>
+                        <option value="103">Carla M. dos Santos</option>
+                        <option value="105">Elisa V. Ribeiro</option>
+                    </select>
+                    <small>Segure Ctrl para selecionar múltiplos alunos</small>
+                </div>
+                <div class="form-group">
+                    <label for="observacoes_avaliacao">Observações e Comentários</label>
+                    <textarea id="observacoes_avaliacao" name="observacoes_avaliacao" rows="4" placeholder="Desempenho geral, pontos fortes, áreas para melhoria..."></textarea>
+                </div>
+                <button type="submit" class="action-btn" style="width: 100%;">Salvar Avaliação</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        © Garra de Águia Lily Lau do Brasil — Sistema Acadêmico de Educação Marcial
+    </footer>
+</body>
+</html>
